@@ -6,7 +6,10 @@ The project contains a service that helps to generate a certificate with persona
 It will be used at the end of the course as proof of successful completion of the retraining program. Also, it will be used by recruiters and TSLs.
 
 ### Requirements
-Requirements are in the Confluence location: https://confluence.softserveinc.com/pages/viewpage.action?spaceKey=BDACD&title=Certificate+generator
+ - Storage files in Google Cloud Storage
+ - Deploy current code with Google Cloud Function
+ - Call the Google Cloud Function
+ - Provide as parameters inputs described below
 
 ### Input
 - Student name
@@ -20,7 +23,7 @@ Requirements are in the Confluence location: https://confluence.softserveinc.com
 ## Working mode
 
 ### Initial
-The default link with template of the certificate: https://europe-central2-gcp101167-competencedevelopmen.cloudfunctions.net/certificate_generator
+The default link with template of the certificate: TBD
 
 ### Working stages
 - start from the link provided on *Initial* step
@@ -30,7 +33,7 @@ The default link with template of the certificate: https://europe-central2-gcp10
 - add the *date* of the Certificate issue in follow format: **22.03.2023**.
 
 ### Result
-The custom certificate with specific student data: https://europe-central2-gcp101167-competencedevelopmen.cloudfunctions.net/certificate_generator?student_name=kateryna%20yatsenko&title=bi%20retraining%20program%20for%20big%20data&status=successfully%20completed&date=22.03.2023
+The custom certificate with specific student data: TBD
 
 
 ## Repository content
