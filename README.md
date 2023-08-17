@@ -23,7 +23,7 @@ It consists of code written in Python for image processing and deployed to GCP C
 ## Working mode
 
 ### Initial
-The default link with template of the certificate: TBD
+The default link with template of the certificate: link generated from Cloud Function
 
 ### Working stages
 - start from the link generated from Cloud Function.
