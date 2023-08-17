@@ -1,9 +1,9 @@
 # Certificate Generator
 
 ## Description
-The project contains a service that helps to generate a certificate with personal data.
-
-It will be used at the end of the course as proof of successful completion of the retraining program. Also, it will be used by recruiters and TSLs.
+The project contains a service that helps to generate a certificate with custom data.
+It can be used at the end of the course as proof of successful completion of the training program.
+It consists of code written in Python for image processing and deployed to GCP Cloud Function. 
 
 ### Requirements
  - Storage files in Google Cloud Storage
@@ -26,15 +26,14 @@ It will be used at the end of the course as proof of successful completion of th
 The default link with template of the certificate: TBD
 
 ### Working stages
-- start from the link provided on *Initial* step
+- start from the link generated from Cloud Function.
 - add the *student_name* by separating the last name from the first name with a whitespace.
-- add the *title* of the Retraining Program by separating the words with a whitespace.
-- add the *status* of the completion - "successfully completed" or "completed".
+- add the *title* of the Training Program by separating the words with a whitespace.
+- add the *status* of the completion - e.g. "successfully completed" or "completed".
 - add the *date* of the Certificate issue in follow format: **22.03.2023**.
 
 ### Result
-The custom certificate with specific student data: TBD
-
+The custom certificate with specific student data: accessible link to the certificate
 
 ## Repository content
 - ***main.py*** - The Python file that contain the code to be deployed on Google Cloud Function
